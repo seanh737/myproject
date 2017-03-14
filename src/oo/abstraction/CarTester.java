@@ -8,6 +8,8 @@ public class CarTester {
 //		c1.name = "Altis";
 //		c1.cc = 1800;
 //		c1.type = "Sedan";
+		Car c2 = new Car("HONDA", 2000, "ACCORD", "Sedan");
+		Car c3 = new Car("Toyota", 2000, "WISH", "Sedan");
 	}
 
 }
