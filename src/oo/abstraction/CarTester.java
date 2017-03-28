@@ -21,17 +21,19 @@ public class CarTester {
 		cars[0] = new Car("Toyota", 1800, "Altis", "Sedan");
 		cars[1] = new Car("HONDA", 2000, "ACCORD", "Sedan");
 		cars[2] = new Car("Toyota", 2000, "WISH", "Sedan");
-		
+		cars[0].id = 301;
+		cars[1].id = 400;
+		cars[2].id = 403;
 		System.out.println(cars[0].name);
-		int i =0;
-		for (int i1 =0; i1<3; i1++){
-			System.out.println(cars[i1].name);
+		int i=0;
+		for (i=0; i<3; i++){
+			System.out.println(cars[i].name);
 		}
 		System.out.println(i);
-//		for (int i1 =1; i1<=9; i1=i1+2){
-//			System.out.println(i1);
-//		}
-//		System.out.println(i);
+		for (i=1; i<=9; i=i+2){
+			System.out.println(i);
+		}
+		System.out.println(i);
 	}
 	
 	class AA {
