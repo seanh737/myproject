@@ -6,6 +6,10 @@ public class Student {
 	int Chinese ;
 	static int pass = 60;
 	
+	Student(){
+		
+	}
+	
 	public Student (int English , int Math ,int Chinese){
 		this.English = English;
 		this.Math = Math ;
