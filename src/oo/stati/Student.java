@@ -20,7 +20,8 @@ public class Student {
 		System.out.println(getScore(English)+"\t"+getScore(Math)+"\t"+getScore(Chinese));
 	}
 	
-	private String getScore(int score){
+	
+	protected String getScore(int score){
 		if (score < pass){
 			return String.valueOf(score)+"*";
 		}else{

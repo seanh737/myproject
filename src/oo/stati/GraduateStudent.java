@@ -8,5 +8,10 @@ public class GraduateStudent extends Student{
 		this.Math = Math ;
 		this.Chinese = Chinese ;
 	}
+	
+	@Override
+	public void print(){
+		System.out.println(getScore(English)+"\t"+getScore(Math)+"\t"+getScore(Chinese)+"\t"+thesis);
+	}
 
 }
