@@ -6,7 +6,7 @@ public class Student {
 	int Chinese ;
 	static int pass = 60;
 	
-	Student(){
+	public Student(){
 		
 	}
 	
@@ -27,5 +27,12 @@ public class Student {
 		}else{
 			return String.valueOf(score);
 		}
+	}
+	
+	public String toString(){
+		return
+				"eng:"+English+"\n"+
+				"Chinese:"+Chinese+"\n"+
+				"Math:"+Math;
 	}
 }

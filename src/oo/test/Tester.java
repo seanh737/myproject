@@ -8,6 +8,12 @@ import oo.stati.Student;
 public class Tester {
 
 	public static void main(String[] args) {
+		Student stu = new Student();
+		System.out.println(stu);
+		
+		
+		
+		
 		Car c = new Car("AA", 2000,"BB","CC");
 		
 		ArrayList a = new ArrayList();
@@ -26,7 +32,7 @@ public class Tester {
 		System.out.println(a);
 		String data = (String)a.get(0);
 //		int n = (int)a.get(4);
-		Student stu = new Student(0, 0, 0);
+		Student stu1 = new Student(0, 0, 0);
 	}
 
 }
