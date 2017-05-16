@@ -1,15 +1,15 @@
 package oo.shopping;
 
+import java.util.ArrayList;
+
 public class Customer {
 	int money;
-	
-	public  Customer(){
-		System.out.println("消費金額"+"\t"+"折扣金"+"\t"+"還原金");
-		
+
+	public Customer(int money) {
+		this.money = money;
 	}
-	
-	public void discount(){
-		System.out.println("\t"+8000*0.9);
+
+	public void print() {
+		System.out.println(money + "\t" + money + "\t0");
 	}
-	
 }
