@@ -4,8 +4,12 @@ public class Member {
 	String id;
 	private int age;
 	String name;
-	public Member(){
+	public Member(String name){
 		System.out.println("member construction");
+		this.name = name;
+	}
+	public Member(){
+	
 	}
 	
 	public void setAge(int age){
