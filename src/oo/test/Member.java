@@ -12,7 +12,7 @@ public class Member {
 	
 	}
 	
-	public void setAge(int age){
+	void setAge(int age){
 		if(age < 0){
 			age = 0;
 		}

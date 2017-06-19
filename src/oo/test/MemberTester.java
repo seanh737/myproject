@@ -4,7 +4,7 @@ public class MemberTester {
 
 	public static void main(String[] args) {
 		Member m = new Member("Sean");
-		m.setAge(-6);
+		m.setAge(-4);
 		System.out.println(m.getAge());
 		
 		//Phonemember
